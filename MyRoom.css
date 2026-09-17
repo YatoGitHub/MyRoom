@@ -9,3 +9,18 @@ body {
 p {
     font-size: 30px !important;
 }
+
+#yato-fixed-banner{
+    position: fixed; 
+    top: 20px; 
+    right: 20px; 
+    z-index: 999999; 
+    background: rgba(0,0,0,0.8); 
+    width: 30%; padding: 15px; 
+    border-radius: 8px; 
+    font-size: 20px; 
+    color: #ff007f; 
+    text-shadow: 0 0 10px #ff007f; 
+    font-weight: bold;
+}
+
