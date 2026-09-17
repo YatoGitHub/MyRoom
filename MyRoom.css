@@ -1,7 +1,11 @@
 body {
-  background-image: url(https://i.imgur.com/QfhAU9L.png);
+    background-image: url("https://i.imgur.com/QfhAU9L.png") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
 }
 
 p {
-  font-size: 30px;
+    font-size: 30px !important;
 }
