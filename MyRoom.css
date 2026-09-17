@@ -29,8 +29,8 @@ p {
     display: block;
 
     width: 100%;
-    height: auto;
-    
+    aspect-ratio: 16 / 9;
+
     background-image: url("https://i.imgur.com/sVCPC5K.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
