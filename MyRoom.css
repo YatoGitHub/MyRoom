@@ -12,7 +12,7 @@ p {
 
 #yato-fixed-banner{
     position: fixed; 
-    top: 20px; 
+    top: 10%; 
     right: 20px; 
     z-index: 999999; 
     background: rgba(0,0,0,0.8); 
