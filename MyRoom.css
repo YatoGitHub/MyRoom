@@ -1,6 +1,7 @@
-body{
-  background-image: https://i.imgur.com/QfhAU9L.png;
+body {
+  background-image: url(https://i.imgur.com/QfhAU9L.png);
 }
-p{
+
+p {
   font-size: 30px;
 }
