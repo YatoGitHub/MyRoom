@@ -35,7 +35,7 @@ p {
 #talkline {
     height: calc(100vh - 50px);
     width: 800px;
-    margin-left: 200px;
+    margin-right: 200px;
 }
 
 /* Располагаем чат и форму вертикально */
