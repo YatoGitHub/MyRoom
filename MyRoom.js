@@ -1,3 +1,7 @@
+if (window.myRoomObserver) {
+    return;
+}
+
 const CURRENT_CHAR_ID = document
     .querySelector('#room_form')
     .getAttribute('data-charid');
@@ -8,11 +12,9 @@ function processMessage(message) {
     }
 }
 
-// Обрабатываем сообщения, которые уже есть
 document.querySelectorAll('#talks .t').forEach(processMessage);
 
-// Следим за новыми сообщениями
-const observer = new MutationObserver(mutations => {
+window.myRoomObserver = new MutationObserver(mutations => {
     for (const mutation of mutations) {
         for (const node of mutation.addedNodes) {
 
@@ -27,6 +29,6 @@ const observer = new MutationObserver(mutations => {
     }
 });
 
-observer.observe(document.getElementById('talks'), {
+window.myRoomObserver.observe(document.getElementById('talks'), {
     childList: true
 });
