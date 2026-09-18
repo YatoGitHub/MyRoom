@@ -61,9 +61,11 @@ p {
 
 #talks .t {
     display: flex;
-    flex-direction: row-reverse;
 }
 
+#talks .t.my-message {
+    flex-direction: row-reverse;
+}
 /* Форма */
 .message_box {
     order: 2;
