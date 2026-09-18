@@ -30,3 +30,8 @@ p {
 
     margin-top: 20px;
 }
+
+#talks {
+    display: flex;
+    flex-direction: column-reverse;
+}
