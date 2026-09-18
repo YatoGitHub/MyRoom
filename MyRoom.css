@@ -59,6 +59,11 @@ p {
     overflow-y: auto;
 }
 
+#talks .t {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 /* Форма */
 .message_box {
     order: 2;
