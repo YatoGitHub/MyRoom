@@ -1,4 +1,4 @@
-#yato-test {
+#body{
     background: red !important;
     color: white !important;
     font-size: 50px !important;
