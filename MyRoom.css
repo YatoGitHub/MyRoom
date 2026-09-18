@@ -44,8 +44,8 @@ p {
     display: flex;
     flex-direction: column;
     min-height: 0;
-    background: #363636;
-    background: linear-gradient(90deg,rgba(54, 54, 54, 1) 0%, rgba(99, 99, 99, 0.75) 76%, rgba(54, 54, 54, 1) 100%);
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.67) 0%, rgba(9, 9, 121, 0.65) 35%, rgba(0, 73, 92, 0.63) 100%);
 }
 
 /* Чат */
