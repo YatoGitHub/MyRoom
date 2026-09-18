@@ -5,7 +5,7 @@ p {
 #yato-fixed-banner{
     position: fixed; 
     top: 10%; 
-    right: 20px; 
+    left: 20px; 
     z-index: 999999; 
     background: rgba(0,0,0,0.8); 
     width: 30%; padding: 15px; 
