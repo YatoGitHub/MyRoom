@@ -45,7 +45,7 @@ p {
     flex-direction: column;
     min-height: 0;
     background: #020024;
-    background: linear-gradient(90deg, rgba(2, 0, 36, 0.67) 0%, rgba(9, 9, 121, 0.65) 35%, rgba(0, 73, 92, 0.63) 100%);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.53) 0%, rgba(0, 0, 64, 0.51) 35%, rgba(0, 73, 92, 0.51) 100%);
 }
 
 /* Чат */
